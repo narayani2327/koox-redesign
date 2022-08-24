@@ -1,13 +1,13 @@
+import React from 'react';
 import {Component} from "react";
+import { Link } from "react-router-dom";
 import SVG from "./SVG";
 class Navbar extends Component {
     render() { 
         return (
-            <nav className="navbar navbar-expand-lg bg-light">
+            <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
-                    <SVG/>
-                    </a>
+                    <Link className="navbar-brand" to="/koox-redesign"><SVG/></Link>
                     <button
                     className="navbar-toggler"
                     type="button"
@@ -22,62 +22,42 @@ class Navbar extends Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#">
-                            Home
-                        </a>
+                            <Link className="nav-link" to="/koox-redesign">Home</Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="#">
-                            About
-                        </a>
+                            <Link className="nav-link" to="/koox-redesign/about">About</Link>
                         </li>
                         <li className="nav-item dropdown">
-                        <a
-                            className="nav-link dropdown-toggle"
-                            href="#"
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            Menu
-                        </a>
+                            <Link
+                                className="nav-link dropdown-toggle"
+                                to="/koox-redesign/menu"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >Menu</Link>
                         <ul className="dropdown-menu">
                             <li>
-                            <a className="dropdown-item" href="#">
-                                Cold - Pressed
-                            </a>
+                                <Link className="dropdown-item" to="/koox-redesign/menu/coldpressed">Cold-Pressed</Link>
                             </li>
                             <li>
-                            <a className="dropdown-item" href="#">
-                                Smoothies
-                            </a>
+                                <Link className="dropdown-item" to="/koox-redesign/menu/smoothies">Smoothies</Link>
                             </li>
                             <li>
-                            <a className="dropdown-item" href="#">
-                                Boosters
-                            </a>
+                                <Link className="dropdown-item" to="/koox-redesign/menu/boosters">Boosters</Link>
                             </li>
                             <li>
-                            <a className="dropdown-item" href="#">
-                                Bowls
-                            </a>
+                                <Link className="dropdown-item" to="/koox-redesign/menu/bowls">Bowls</Link>
                             </li>
                             <li>
-                            <a className="dropdown-item" href="#">
-                                Treats
-                            </a>
+                                <Link className="dropdown-item" to="/koox-redesign/menu/treats">Treats</Link>
                             </li>
                         </ul>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="#">
-                            Order Now
-                        </a>
+                            <Link className="nav-link" to="/koox-redesign/order">Order</Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="#">
-                            Contact
-                        </a>
+                            <Link className="nav-link" to="/koox-redesign/contact">Contact</Link>
                         </li>
                     </ul>
                     </div>

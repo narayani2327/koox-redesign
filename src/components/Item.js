@@ -5,8 +5,7 @@ class Item extends Component {
             <div className="item-details">
                 <img src={this.props.img}></img>
                 <div className="item-info">
-                    <p className="name">{this.props.name}</p>
-                    <p className="price">{this.props.price}</p>
+                    <p className="name">{this.props.name} - &#163; {this.props.price}</p>
                     <p className="contains">{this.props.contains}</p>
                     <p className="nutrients">
                         {this.props.nutrients[0]}

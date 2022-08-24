@@ -7,6 +7,7 @@ import Happy from "../assets/HAPPY_GUT.png";
 import Shield from "../assets/WINTER_IMMUNITY.png";
 import DrGreen from "../assets/DR-GREEN.png";
 import CocoWater from "../assets/COCOH2O.png";
+import Navbar from "./Navbar";
 class ColdPressed extends Component {
     render() { 
         return (
