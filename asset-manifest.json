@@ -1,17 +1,34 @@
 {
   "files": {
-    "main.css": "/koox-redesign/static/css/main.61aa837a.css",
-    "main.js": "/koox-redesign/static/js/main.7dacf148.js",
+    "main.css": "/koox-redesign/static/css/main.069b2fca.css",
+    "main.js": "/koox-redesign/static/js/main.251fbed9.js",
     "static/media/mixture.jpg": "/koox-redesign/static/media/mixture.a3006266d43e6ff0b93f.jpg",
+    "static/media/white omega3.png": "/koox-redesign/static/media/white omega3.11a75a5d4281d49cc922.png",
+    "static/media/Pink coco omega 4.png": "/koox-redesign/static/media/Pink coco omega 4.f4cf2e81dfa58a56e0ce.png",
+    "static/media/BLUE-MAJIK.png": "/koox-redesign/static/media/BLUE-MAJIK.ebd67bfca784dac7281d.png",
+    "static/media/dates.png": "/koox-redesign/static/media/dates.ac2595c182ff3acd47aa.png",
+    "static/media/DR-GREEN.png": "/koox-redesign/static/media/DR-GREEN.7b94780d0b0f60afe85a.png",
     "static/media/hydro green.png": "/koox-redesign/static/media/hydro green.73754c2b2f97f6887e11.png",
+    "static/media/Keto_Greens_web.png": "/koox-redesign/static/media/Keto_Greens_web.6c6746c4647f2c80e1f6.png",
+    "static/media/VITC_WL.png": "/koox-redesign/static/media/VITC_WL.cc3fb8ce538ebb53e17d.png",
+    "static/media/BRAINPOWER_WL.png": "/koox-redesign/static/media/BRAINPOWER_WL.a88309cf15f6d33f0da0.png",
     "static/media/drinkable_skincare.png": "/koox-redesign/static/media/drinkable_skincare.6e74d0f2551212d6ee24.png",
+    "static/media/WINTER_IMMUNITY.png": "/koox-redesign/static/media/WINTER_IMMUNITY.d1c3938e8923ed67a978.png",
+    "static/media/GREENHEALER_WL.png": "/koox-redesign/static/media/GREENHEALER_WL.fba26c6ba554ed71f145.png",
     "static/media/ultimate-detox.png": "/koox-redesign/static/media/ultimate-detox.0e2710540da15ec55492.png",
+    "static/media/HAPPY_GUT.png": "/koox-redesign/static/media/HAPPY_GUT.7f0cb16c2412e6ad1070.png",
+    "static/media/COCOH2O.png": "/koox-redesign/static/media/COCOH2O.440a7e01d068f8051ae2.png",
+    "static/media/Beet-Glow.png": "/koox-redesign/static/media/Beet-Glow.cd58f140625022eb9232.png",
+    "static/media/Hemp-protein-ball.png": "/koox-redesign/static/media/Hemp-protein-ball.3f7958c9700f9ee98451.png",
+    "static/media/Dark-choco-peanuts.png": "/koox-redesign/static/media/Dark-choco-peanuts.acef5abec20d69658474.png",
+    "static/media/TURMERIC_DEFENSE.png": "/koox-redesign/static/media/TURMERIC_DEFENSE.5a607c7254f4867a6558.png",
+    "static/media/Gut-Cleanser.png": "/koox-redesign/static/media/Gut-Cleanser.7ba1d35cd51bd1365146.png",
     "index.html": "/koox-redesign/index.html",
-    "main.61aa837a.css.map": "/koox-redesign/static/css/main.61aa837a.css.map",
-    "main.7dacf148.js.map": "/koox-redesign/static/js/main.7dacf148.js.map"
+    "main.069b2fca.css.map": "/koox-redesign/static/css/main.069b2fca.css.map",
+    "main.251fbed9.js.map": "/koox-redesign/static/js/main.251fbed9.js.map"
   },
   "entrypoints": [
-    "static/css/main.61aa837a.css",
-    "static/js/main.7dacf148.js"
+    "static/css/main.069b2fca.css",
+    "static/js/main.251fbed9.js"
   ]
 }
