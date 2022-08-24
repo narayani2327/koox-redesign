@@ -6,7 +6,6 @@ class App extends React.Component {
     return (
       <>
         <Navbar/>
-        <h1>Hello</h1>
         <Home/>
       </>
       );
