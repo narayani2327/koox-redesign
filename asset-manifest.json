@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/koox-redesign/static/css/main.31d6cfe0.css",
-    "main.js": "/koox-redesign/static/js/main.44a4d636.js",
+    "main.css": "/koox-redesign/static/css/main.61aa837a.css",
+    "main.js": "/koox-redesign/static/js/main.7dacf148.js",
+    "static/media/mixture.jpg": "/koox-redesign/static/media/mixture.a3006266d43e6ff0b93f.jpg",
+    "static/media/hydro green.png": "/koox-redesign/static/media/hydro green.73754c2b2f97f6887e11.png",
+    "static/media/drinkable_skincare.png": "/koox-redesign/static/media/drinkable_skincare.6e74d0f2551212d6ee24.png",
+    "static/media/ultimate-detox.png": "/koox-redesign/static/media/ultimate-detox.0e2710540da15ec55492.png",
     "index.html": "/koox-redesign/index.html",
-    "main.44a4d636.js.map": "/koox-redesign/static/js/main.44a4d636.js.map"
+    "main.61aa837a.css.map": "/koox-redesign/static/css/main.61aa837a.css.map",
+    "main.7dacf148.js.map": "/koox-redesign/static/js/main.7dacf148.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.44a4d636.js"
+    "static/css/main.61aa837a.css",
+    "static/js/main.7dacf148.js"
   ]
 }
