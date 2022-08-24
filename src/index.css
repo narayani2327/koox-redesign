@@ -12,7 +12,9 @@
   margin: 0px;
   box-sizing: border-box;
 }
-
+.navbar{
+  background-color: wheat;
+}
 svg{
   width: 100px;
   height: 50px;
@@ -50,6 +52,7 @@ svg{
   margin-left: 40vw;
 }
 .main-page{
+  margin-top: 75px;
   background-image: linear-gradient(45deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(./assets/mixture.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -82,18 +85,20 @@ svg{
   justify-content: space-evenly;
   align-items: center;
   border-bottom: double black 5px;
-  animation: transfer 2s 1;
+  position: relative;
+  opacity: 0;
+  transition: all 2s ease;
 }
-/* @keyframes transfer{
-  0%{
-    opacity: 0;
-    transform: translateX(1000px);
-  }
-  100%{
-    opacity: 1;
-    transform: translateX(0);
-  }
-} */
+.item-details:nth-child(odd){
+  transform: translateX(500px);
+}
+.item-details:nth-child(even){
+  transform: translateX(-500px);
+}
+.item-details.active{
+  transform: translateX(0px);
+  opacity: 1;
+}
 .item-details img{
   width: 400px;
   height: 600px;

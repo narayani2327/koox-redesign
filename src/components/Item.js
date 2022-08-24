@@ -1,6 +1,20 @@
 import { Component } from "react";
 class Item extends Component {
     render() { 
+        window.addEventListener('scroll',()=>{
+            var reveals=document.querySelectorAll(".item-details")
+            for(var i=0;i<reveals.length;i++){
+                var windowheight=window.innerHeight
+                var revealtop=reveals[i].getBoundingClientRect().top
+                var revealpoint=150
+                if(revealtop<windowheight-revealpoint){
+                    reveals[i].classList.add('active')
+                }
+                else{
+                    reveals[i].classList.remove('active')
+                }
+            }
+        })
         return (
             <div className="item-details">
                 <img src={this.props.img}></img>

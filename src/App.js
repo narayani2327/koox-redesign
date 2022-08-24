@@ -3,10 +3,8 @@ import {Routes, Route} from "react-router-dom";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Menu from "./components/Menu";
 import Order from "./components/Order";
 import Contact from "./components/Contact";
-import SVG from "./components/SVG";
 import ColdPressed from "./components/ColdPressed";
 import Smoothies from "./components/Smoothies";
 import Bowls from "./components/Bowls";
@@ -16,7 +14,6 @@ class App extends React.Component {
   render() { 
     return (
       <>
-        <div className="logo"><SVG/></div>
         <Navbar/>
         <Routes>
           <Route path='/koox-redesign' element={<Home/>} />
