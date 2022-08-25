@@ -11,7 +11,7 @@ import Navbar from "./Navbar";
 class ColdPressed extends Component {
     render() { 
         return (
-            <>
+            <div className="orders">
                 <p className="main-title">Cold - Pressed</p>
                 <div className="items">
                     <Item name="Ultimate Detox" price="7.95" contains="Apple, lemon, celery, parsley, spinach, kale, ginger" nutrients={["Per 100ml:","Energy - 174kj(41kcal)","Fat - 0.1 of which saturated 0.0","Carbohydrates 9.2g of which sugar 9.0g","Fibre - 0.7g","Protein - 0.4g","Salt - 0.02g"]} img={Ultimate}/>
@@ -22,7 +22,7 @@ class ColdPressed extends Component {
                     <Item name="Dr. Green" price="7.95" contains="Cucumber, spinach, parsley, kale, lemon, celery, ginger" nutrients={["Per 100ml:","Energy - 81kj(20kcal)","Fat - 0.5 of which saturated 0.2","Carbohydrates 1.9g of which sugar 1.4g","Fibre - 1.1g","Protein - 0.6g","Salt - 0.5g"]} img={DrGreen}/>
                     <Item name="Coco Water" price="7.50" contains="Cucumber, spinach, parsley, kale, lemon, celery, ginger" nutrients={["Per 100ml:","Energy - 81kj(20kcal)","Fat - 0.5 of which saturated 0.2","Carbohydrates 1.9g of which sugar 1.4g","Fibre - 1.1g","Protein - 0.6g","Salt - 0.5g"]} img={CocoWater}/>
                 </div>
-            </>
+            </div>
         );
     }
 }
