@@ -88,11 +88,12 @@ svg{
   position: relative;
   opacity: 0;
   transition: all 2s ease;
-}
-.item-details:nth-child(odd){
-  transform: translateX(500px);
+  overflow: hidden;
 }
 .item-details:nth-child(even){
+  transform: translateX(500px);
+}
+.item-details:nth-child(odd){
   transform: translateX(-500px);
 }
 .item-details.active{
