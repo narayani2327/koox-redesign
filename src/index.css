@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans&family=Pacifico&family=Sacramento&family=Satisfy&display=swap');
 :root{
   --darkbrown:#210f04;
   --brown:#452103;
@@ -11,6 +12,30 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+}
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+p.main-title{
+  width: 50vw;
+  margin-top: 150px;
+  margin-left: -200px;
+  position: relative;
+  text-align: left;
+  font-size: 60px;
+  font-family: 'Sacramento', cursive;
+}
+p.main-title::before{
+  position: absolute;
+  content: "";
+  width: 30%;
+  transition-duration: 2s;
+  height: 5px;
+  top: 90px;
+  background-color: cadetblue;
+}
+p.main-title:hover::before{
+  width: 50%;
 }
 .navbar{
   background-color: wheat;
@@ -49,7 +74,7 @@ svg{
   margin-left: 30px;
 }
 .navbar-collapse{
-  margin-left: 40vw;
+  margin-left: 35vw;
 }
 .main-page{
   margin-top: 75px;
@@ -71,7 +96,10 @@ svg{
 }
 .main-title h2{
   font-size: 100px;
-
+  /* font-family: 'Great Vibes', cursive; */
+font-family: 'Pacifico', cursive;
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Satisfy', cursive; */
 }
 .main-title p{
   font-size: 30px;
@@ -110,7 +138,66 @@ svg{
 }
 p.name{
   font-size: 40px;
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: 1px;
 }
 p.name{
   font-size: 40px;
+}
+.order ul{
+  list-style-type: none;
+  font-size: 50px;
+  text-align: center;
+}
+.order li{
+  padding: 30px;
+}
+.order a{
+  text-decoration: none;
+  padding: 30px;
+}
+.order a:hover{
+  background-color: burlywood;
+}
+#about .about-text{
+  padding: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: justify;
+  font-size: 20px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: relative;
+}
+.cardd{
+  width: 350px;
+  text-align: center;
+  height: 200px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+  border: solid black 2px;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: lawngreen; 
+  position: relative;
+  opacity: 0;
+  transition: all 2s ease;
+  overflow: hidden;
+  transform: translateY(100px);
+}
+.cardd:nth-child(4){
+  width: 1000px;
+  height: 200px;
+}
+.cardd.active{
+  transform: translateY(0px);
+  opacity: 1;
 }

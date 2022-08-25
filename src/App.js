@@ -2,7 +2,6 @@ import React from "react";
 import {Routes, Route} from "react-router-dom";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import About from "./components/About";
 import Order from "./components/Order";
 import Contact from "./components/Contact";
 import ColdPressed from "./components/ColdPressed";
@@ -17,7 +16,6 @@ class App extends React.Component {
         <Navbar/>
         <Routes>
           <Route path='/koox-redesign' element={<Home/>} />
-          <Route path='/koox-redesign/about' element={<About/>} />
           <Route path='/koox-redesign/menu/coldpressed' element={<ColdPressed/>} />
           <Route path='/koox-redesign/menu/smoothies' element={<Smoothies/>} />
           <Route path='/koox-redesign/menu/boosters' element={<Boosters/>} />
