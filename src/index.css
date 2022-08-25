@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans&family=Pacifico&family=Sacramento&family=Satisfy&display=swap');
 :root{
-  --darkbrown:#210f04;
-  --brown:#452103;
-  --red:#690500;
-  --lightbrown:#934b00;
-  --livedog:#bb6b00;
-  --dgreen:#004b23;
-  --green:#143601;
+  --brown:#522500;
+  --lgbrown:#ffd1ad;
 }
 *{
   padding: 0px;
@@ -15,13 +10,14 @@
 }
 body{
   font-family: 'Josefin Sans', sans-serif;
+  color: var(--brown);
+  background-color: var(--lgbrown);
 }
 p.main-title{
-  width: 50vw;
   margin-top: 150px;
-  margin-left: -200px;
+  margin-left: 70px;
   position: relative;
-  text-align: left;
+  text-align: start;
   font-size: 60px;
   font-family: 'Sacramento', cursive;
 }
@@ -32,17 +28,33 @@ p.main-title::before{
   transition-duration: 2s;
   height: 5px;
   top: 90px;
-  background-color: cadetblue;
+  background-color: var(--brown);
 }
 p.main-title:hover::before{
   width: 50%;
 }
 .navbar{
-  background-color: wheat;
+  background-color: var(--brown);
+}
+.navbar a{
+  color: var(--lgbrown);
+  transition-duration: 1s;
+  margin-right: 10px;
+}
+.navbar a:hover{
+  background-color: var(--lgbrown);
+  color: var(--brown);
 }
 svg{
   width: 100px;
   height: 50px;
+  padding: 10px;
+}
+.container-fluid .navbar-brand:hover{
+  background-color: var(--brown);
+}
+.dropdown-menu{
+  background-color: var(--brown);
 }
 .logo svg{ 
   width: 800px;
@@ -97,12 +109,14 @@ svg{
 .main-title h2{
   font-size: 100px;
   /* font-family: 'Great Vibes', cursive; */
-font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 3px 3px 5px var(--lgbrown);
 /* font-family: 'Sacramento', cursive; */
 /* font-family: 'Satisfy', cursive; */
 }
 .main-title p{
   font-size: 30px;
+  color: var(--lgbrown);
 }
 .item-details{
   margin: 15px;
@@ -155,9 +169,12 @@ p.name{
 .order a{
   text-decoration: none;
   padding: 30px;
+  color: var(--brown);
+  transition-duration: 2s;
 }
 .order a:hover{
-  background-color: burlywood;
+  background-color: var(--brown);
+  color: var(--lgbrown);
 }
 #about .about-text{
   padding: 200px;
@@ -183,10 +200,10 @@ p.name{
   justify-content: center;
   font-family: 'Satisfy', cursive;
   font-size: 40px;
-  border: solid black 2px;
   border-radius: 20px;
   margin: 20px;
-  background-color: lawngreen; 
+  background-color: var(--brown); 
+  color: var(--lgbrown);
   position: relative;
   opacity: 0;
   transition: all 2s ease;

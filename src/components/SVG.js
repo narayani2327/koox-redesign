@@ -4,7 +4,7 @@ class SVG extends Component {
         return (
             <svg
                 className="u-inline-block u-valign-middle u-fit-w"
-                style={{ fill: "rgb(0, 0, 0)", userSelect: "auto" }}
+                style={{ fill: "rgb(255,209,173)", userSelect: "auto" }}
                 enableBackground="new 0 0 366.9 127.6"
                 version="1.1"
                 viewBox="0 0 373.00001 128"
