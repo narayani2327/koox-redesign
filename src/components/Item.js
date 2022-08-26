@@ -8,10 +8,16 @@ class Item extends Component {
                 var revealtop=reveals[i].getBoundingClientRect().top
                 var revealpoint=150
                 if(revealtop<windowheight-revealpoint){
-                    reveals[i].classList.add('active')
+                    if (i%2==0)
+                        reveals[i].classList.add('active')
+                    else
+                        reveals[i].classList.add('activee')
                 }
                 else{
-                    reveals[i].classList.remove('active')
+                    if (i%2==0)
+                        reveals[i].classList.remove('active')
+                    else
+                        reveals[i].classList.remove('activee')
                 }
             }
         })

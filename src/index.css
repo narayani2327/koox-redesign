@@ -130,17 +130,45 @@ svg{
   border-bottom: double var(--brown) 5px;
   position: relative;
   opacity: 0;
-  transition: all 2s ease;
-  overflow: hidden;
+  /* transition: all 2s ease; */
+  /* overflow: hidden; */
 }
-.item-details:nth-child(even){
-  transform: translateX(500px);
+/* .item-details:nth-child(even){
+  transform: translateX(100px);
+  animation: fade-right 2s ease-in; 
+} */
+@keyframes fade-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
-.item-details:nth-child(odd){
-  transform: translateX(-500px);
+/* .item-details:nth-child(odd){
+  transform: translateX(100px);
+  animation: fade-left 2s ease-in; 
+} */
+@keyframes fade-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 .item-details.active{
-  transform: translateX(0px);
+  /* transform: translateX(0px); */
+  animation: fade-right 1s ease-in; 
+  opacity: 1;
+}
+.item-details.activee{
+  /* transform: translateX(0px); */
+  animation: fade-left 1s ease-in; 
   opacity: 1;
 }
 .item-details img{
@@ -303,6 +331,9 @@ p.name{
   .item-info{
     font-size: 20px;
     padding: 5px;
+  }
+  .navbar-collapse{
+    margin-left: 0vw;
   }
 }
 @media screen and (min-width:320px) and (max-width:1115px) {
