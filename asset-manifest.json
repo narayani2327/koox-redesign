@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/koox-redesign/static/css/main.b524fa26.css",
-    "main.js": "/koox-redesign/static/js/main.fde793d9.js",
+    "main.css": "/koox-redesign/static/css/main.ab0a925a.css",
+    "main.js": "/koox-redesign/static/js/main.0c0704c4.js",
     "static/media/mixture.jpg": "/koox-redesign/static/media/mixture.a3006266d43e6ff0b93f.jpg",
     "static/media/white omega3.png": "/koox-redesign/static/media/white omega3.11a75a5d4281d49cc922.png",
     "static/media/Pink coco omega 4.png": "/koox-redesign/static/media/Pink coco omega 4.f4cf2e81dfa58a56e0ce.png",
@@ -24,11 +24,11 @@
     "static/media/TURMERIC_DEFENSE.png": "/koox-redesign/static/media/TURMERIC_DEFENSE.5a607c7254f4867a6558.png",
     "static/media/Gut-Cleanser.png": "/koox-redesign/static/media/Gut-Cleanser.7ba1d35cd51bd1365146.png",
     "index.html": "/koox-redesign/index.html",
-    "main.b524fa26.css.map": "/koox-redesign/static/css/main.b524fa26.css.map",
-    "main.fde793d9.js.map": "/koox-redesign/static/js/main.fde793d9.js.map"
+    "main.ab0a925a.css.map": "/koox-redesign/static/css/main.ab0a925a.css.map",
+    "main.0c0704c4.js.map": "/koox-redesign/static/js/main.0c0704c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b524fa26.css",
-    "static/js/main.fde793d9.js"
+    "static/css/main.ab0a925a.css",
+    "static/js/main.0c0704c4.js"
   ]
 }
