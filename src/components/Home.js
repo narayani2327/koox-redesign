@@ -27,7 +27,9 @@ class Home extends React.Component {
       </div>
       <div id="about">
         <p className="main-title">About Us</p>
-        <p className="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, iure! Repellat asperiores nulla amet harum odit illo quidem a non. Consequuntur fugit possimus ducimus quia, ullam aut non, quod debitis error voluptas doloribus quaerat aspernatur at dolorum repellat cupiditate modi aperiam labore inventore dignissimos. Ipsa numquam magnam quas qui at!</p>
+        <p className="about-text">
+          Koox is fruit juice company based in London, which is known for its 100% Organic, 100% cold-pressed, 100% raw, 0% additives, 0% pasteurisation and 0% HPP, healthy juices and immunity boosters. Our juices are filled with nutrients and natural ingredients like coconut water, avocado, kale, spinach, lime, mint, Apple, lemon, celery, parsley, ginger, beetroot, carrot, aloe vera and many more. We sell many products, you can choose according to your health and body needs. Below each product, there is a list of nutrients present in the product with ingredients used.
+        </p>
       </div>
       <div className="claims">
         <p className="main-title">Product Info</p>
